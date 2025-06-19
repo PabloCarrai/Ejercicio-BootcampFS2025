@@ -1,1 +1,1 @@
-# Ejercicio-BootcampFS2025
+# Ejercicios-BootcampFS2025
