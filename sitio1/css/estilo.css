@@ -1,6 +1,7 @@
 body {
     background-color: #273238;
     color: white;
+    font-family: Arial, Gadget, sans-serif;
 }
 
 h1 {
@@ -8,4 +9,10 @@ h1 {
     color: #698593;
     text-align: center;
     text-transform: capitalize;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+h2 {
+    color: #e6cbbf;
+    font-family: Impact, Charcoal, sans-serif;
 }
