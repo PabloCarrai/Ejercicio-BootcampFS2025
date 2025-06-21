@@ -72,8 +72,11 @@
         font-family: Impact, Charcoal, sans-serif;
         font-weight: bold;
     }
-    nav a{
+
+    nav a {
         color: white;
     }
 
-    nav strong{color: red;}
+    nav strong {
+        color: red;
+    }
