@@ -1,7 +1,20 @@
 body {
     background-color: #273238;
     color: white;
-    font-family: Arial, Gadget, sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin: 0;
+    padding: 0 ;
+}
+
+.container {
+    width: 100vw;
+    margin: 0;
+    padding: 0; /* Este padding lateral lo puedes ajustar */
+}
+
+header,
+main {
+    padding: 0 30px;
 }
 
 h1 {
@@ -9,10 +22,83 @@ h1 {
     color: #698593;
     text-align: center;
     text-transform: capitalize;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
 h2 {
+    text-transform: uppercase;
     color: #e6cbbf;
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: Arial, Gadget, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.letra-inicial {
+    font-size: 29px; /* más grande solo la letra inicial */
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+p {
+    color: #cdd7d9;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    border: 3px solid #e6cbbf;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+/* Colores para los títulos */
+.titulo-aspiradoras {
+    color: #e6cbbf; /* Color por defecto para aspiradoras */
+}
+
+.titulo-celulares {
+    color: #a1c1cb;
+}
+
+.titulo-televisores {
+    color: #b2b2aa;
+}
+
+.titulo-consolas {
+    color: #bcbdbf;
+}
+
+.titulo-home {
+    color: #8d94a1;
+}
+
+/* Colores para los bordes de imágenes */
+.img-aspiradoras {
+    border: 3px solid #e6cbbf; /* Color por defecto para aspiradoras */
+}
+
+.img-celular {
+    border: 3px solid #a1c1cb;
+}
+
+.img-televisores {
+    border: 3px solid #b2b2aa;
+}
+
+.img-consolas {
+    border: 3px solid #bcbdbf;
+}
+
+.img-home {
+    border: 3px solid #8d94a1;
 }
