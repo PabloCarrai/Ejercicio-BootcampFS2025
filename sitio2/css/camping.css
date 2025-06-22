@@ -1,83 +1,99 @@
 body {
-    font-family: Verdana, Arial, sans-serif;
-    background-color: #f5f0ea;
-    margin: 0 ;
-    padding: 0;
-    color: #a56f50;
-  }
-  
- header img {
-    width: 99%;
-    
-    height: auto;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-   
-  }
-  
-  header h1 {
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-    font-size: 2.5em;
-    text-shadow: 2px 2px 5px #000;
-  }
-  
-  nav {
-    background-color: #f5f0ea;
-    padding: 5px 15px;
-    text-align: left;
-    margin: 0;
-  }
-  
-  nav a {
-    font-size: 1.5em;
-    color: #ef6d24;
-    text-decoration: underline;
-    font-weight: bold;
-    margin-right: 0;
-  }
-  
-  main {
-    padding: 10px;
-  }
-  
-  h2 {
-    color: #5d4037;
-    font-size: 2.4em;      /* 🔥 más grande que el valor por defecto */
-    font-weight: bold;     /* asegura que se vea fuerte */
-   
-    
-  }
-  
-  section {
-    margin-top: 30px;
-  }
-  
-  section h3 {
-    background-color: #6d4c41;
-    color: #e1d4cf;
-    padding: 5px 10px;
-  }
-  
-  a {
-    color: #ef6d3f;
-  }
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #f5f0ea;
+  margin: 0;
+  padding: 0;
+  color: #a56f50;
+}
 
-  a.nacion {
-    color:  #44b0c9; /* o el color exacto que se ve en el ejemplo (#0000EE) */
-  }
-  
-  .destacado {
-    color: #875449 ; /* naranja oscuro llamativo */
-    font-weight: bold;
-  }
-  a.pagina{
-    color: red;
-  }
-  .prosegur {
-    color: #ef6d3f; /* amarillo dorado */
-  }
-  
-  
+header img {
+  width: 99%;
+
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+
+}
+
+header h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 5px #000;
+}
+
+nav {
+  background-color: #f5f0ea;
+  padding: 5px 15px;
+  text-align: left;
+  margin: 0;
+}
+
+nav a {
+  font-size: 1.5em;
+  color: #ef6d24;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-right: 0;
+}
+
+main {
+  padding: 10px;
+}
+
+h2 {
+  color: #5d4037;
+  font-size: 2.4em;
+  /* 🔥 más grande que el valor por defecto */
+  font-weight: bold;
+  /* asegura que se vea fuerte */
+
+
+}
+
+section {
+  margin-top: 30px;
+}
+
+section h3 {
+  background-color: #6d4c41;
+  color: #e1d4cf;
+  padding: 5px 10px;
+}
+
+a {
+  color: #ef6d3f;
+}
+
+a.nacion {
+  color: #44b0c9;
+  /* o el color exacto que se ve en el ejemplo (#0000EE) */
+}
+
+.destacado {
+  color: #875449;
+  /* naranja oscuro llamativo */
+  font-weight: bold;
+}
+
+a.pagina {
+  color: red;
+}
+
+.prosegur {
+  color: #ef6d3f;
+  /* amarillo dorado */
+}
+
+footer {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+  height: 100px;
+  color: #ffe925;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
