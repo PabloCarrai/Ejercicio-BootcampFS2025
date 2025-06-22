@@ -102,3 +102,44 @@ img {
 .img-home {
     border: 3px solid #8d94a1;
 }
+
+.navegacion-interna {
+    background: #222e36;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.navegacion-interna ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.navegacion-interna li {
+    display: inline;
+    margin: 0 18px;
+}
+.navegacion-interna a {
+    color: #ffe066;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+.navegacion-interna a:hover {
+    color: #fff;
+}
+
+.footer-sitio1 {
+    height: 100px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffe066;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
