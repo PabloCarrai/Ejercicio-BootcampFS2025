@@ -1,82 +1,145 @@
-    body {
-        background-color: #273238;
-        color: white;
-        font-family: Arial, Gadget, sans-serif;
-    }
+body {
+    background-color: #273238;
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin: 0;
+    padding: 0 ;
+}
 
-    h1 {
-        background-color: #ffffff;
-        color: #698593;
-        text-align: center;
-        text-transform: capitalize;
-        font-weight: bold;
-        font-family: Impact, Charcoal, sans-serif;
-        font-size: 65px;
-    }
+.container {
+    width: 100vw;
+    margin: 0;
+    padding: 0; /* Este padding lateral lo puedes ajustar */
+}
 
-    h2 {
-        color: #e6cbbf;
-        font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-        font-style: italic;
-    }
+header,
+main {
+    padding: 0 30px;
+}
 
+h1 {
+    background-color: #ffffff;
+    color: #698593;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
 
-    #aspiradoras {
-        color: #e6cbbf;
-    }
+h2 {
+    text-transform: uppercase;
+    color: #e6cbbf;
+    font-family: Arial, Gadget, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 40px;
+}
 
-    #celular {
-        color: #a1c1cb
-    }
+.letra-inicial {
+    font-size: 29px; /* más grande solo la letra inicial */
+    font-weight: bold;
+    margin-right: 2px;
+}
 
-    #consola {
-        color: #babab6;
-    }
+p {
+    color: #cdd7d9;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+}
 
-    #hometheaters {
-        color: #86827f;
-    }
+img {
+    display: block;
+    border: 3px solid #e6cbbf;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
 
-    #televisores {
-        color: #b2b2aa;
-    }
+/* Colores para los títulos */
+.titulo-aspiradoras {
+    color: #e6cbbf; /* Color por defecto para aspiradoras */
+}
 
-    img {
-        border: 4px solid #e6cbbf;
-        width: "500px";
-        height: "146px";
-        margin-left: 4%;
-    }
+.titulo-celulares {
+    color: #a1c1cb;
+}
 
-    footer {
-        height: 100px;
-        background-color: black;
-    }
+.titulo-televisores {
+    color: #b2b2aa;
+}
 
-    footer p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: yellow;
-        font-family: "Roboto", sans-serif;
-    }
+.titulo-consolas {
+    color: #bcbdbf;
+}
 
-    nav {
-        width: 100%;
-        height: 10%;
-        text-align: center;
-        padding: 14px 25px;
-        background-color: rgb(132, 138, 120);
-        text-decoration: none;
-        display: inline-block;
-        font-family: Impact, Charcoal, sans-serif;
-        font-weight: bold;
-    }
+.titulo-home {
+    color: #8d94a1;
+}
 
-    nav a {
-        color: white;
-    }
+/* Colores para los bordes de imágenes */
+.img-aspiradoras {
+    border: 3px solid #e6cbbf; /* Color por defecto para aspiradoras */
+}
 
-    nav strong {
-        color: red;
-    }
+.img-celular {
+    border: 3px solid #a1c1cb;
+}
+
+.img-televisores {
+    border: 3px solid #b2b2aa;
+}
+
+.img-consolas {
+    border: 3px solid #bcbdbf;
+}
+
+.img-home {
+    border: 3px solid #8d94a1;
+}
+
+.navegacion-interna {
+    background: #222e36;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.navegacion-interna ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.navegacion-interna li {
+    display: inline;
+    margin: 0 18px;
+}
+.navegacion-interna a {
+    color: #ffe066;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+.navegacion-interna a:hover {
+    color: #fff;
+}
+
+.footer-sitio1 {
+    height: 100px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffe066;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}

@@ -80,4 +80,18 @@ body {
     color: #ef6d3f; /* amarillo dorado */
   }
   
+  .footer-sitio2 {
+    height: 100px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffe066;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+  
   
